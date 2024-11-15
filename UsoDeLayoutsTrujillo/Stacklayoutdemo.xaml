@@ -4,20 +4,27 @@
              x:Class="UsoDeLayoutsTrujillo.Stacklayoutdemo"
              Title="Stacklayoutdemo">
     <VerticalStackLayout>
-        <Label 
+       <Label 
             Text="ESTE ES EL STACKLAYOUT"
+     FontFamily="Comic Sans MS"
+    FontSize="22"
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
-            BackgroundColor="Green"/>
+            BackgroundColor="Green"
+  />
         <Label 
     Text="MI NOMBRE ES: ISAAC TRUJILLO"
     VerticalOptions="Center" 
     HorizontalOptions="Center" 
+             FontFamily="Segoe Script"
+FontSize="28"
             BackgroundColor="Aquamarine"/>
         <Label 
     Text="Página con un StackLayout vertical que contenga tres etiquetas de texto (su nombre) con diferentes tamaños de fuente y un botón que lleve a FlexLayout."
     VerticalOptions="Center" 
-    HorizontalOptions="Center" 
+    HorizontalOptions="Center"
+             FontFamily="Kristen ITC"
+FontSize="15"
             BackgroundColor="Chocolate"/>
     </VerticalStackLayout>
 </ContentPage>
