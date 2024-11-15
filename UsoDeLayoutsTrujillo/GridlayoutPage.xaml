@@ -3,10 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UsoDeLayoutsTrujillo.GridlayoutPage"
              Title="GridlayoutPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Button  x:Name="InfoButton" 
+                 Text="Información de mí"
+                Grid.Row="0" Grid.Column="0"
+                BackgroundColor="RosyBrown"
+                 Clicked="InfoButton_Clicked"/>
+
+        <Button x:Name="StackButton" 
+                Text="StackLayout"
+                Grid.Row="0" Grid.Column="1"
+                BackgroundColor="DarkRed"
+                 Clicked="StackButton_Clicked"/>
+
+        <Button  x:Name="GitHubButton"
+                 Text="Click me! GITHUB"
+                Grid.Row="1" Grid.Column="0" 
+                BackgroundColor="Violet"
+                 Clicked="GitHubButton_Clicked"/>
+
+        <Button  x:Name="FavoriteSongButton"
+                 Text="Canción Favorita"
+                Grid.Row="1" Grid.Column="1" 
+                BackgroundColor="Blue"
+                 Clicked="FavoriteSongButton_Clicked"/>
+    </Grid>
 </ContentPage>

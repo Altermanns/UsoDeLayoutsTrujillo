@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new Stacklayoutdemo();
+            MainPage = new NavigationPage(new GridlayoutPage()); ;
         }
     }
 }
