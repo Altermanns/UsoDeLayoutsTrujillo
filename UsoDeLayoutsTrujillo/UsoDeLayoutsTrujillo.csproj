@@ -63,6 +63,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="GridlayoutPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Stacklayoutdemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

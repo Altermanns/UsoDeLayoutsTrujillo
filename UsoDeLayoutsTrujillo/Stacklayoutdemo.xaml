@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UsoDeLayoutsTrujillo.Stacklayoutdemo"
              Title="Stacklayoutdemo">
-    <VerticalStackLayout>
+    <VerticalStackLayout VerticalOptions="Center"
+                         Spacing="10">
        <Label 
             Text="ESTE ES EL STACKLAYOUT"
      FontFamily="Comic Sans MS"
@@ -18,11 +19,11 @@
     HorizontalOptions="Center" 
              FontFamily="Segoe Script"
 FontSize="28"
-            BackgroundColor="Aquamarine"/>
+            BackgroundColor="DarkRed"/>
         <Label 
     Text="Página con un StackLayout vertical que contenga tres etiquetas de texto (su nombre) con diferentes tamaños de fuente y un botón que lleve a FlexLayout."
     VerticalOptions="Center" 
-    HorizontalOptions="Center"
+    HorizontalOptions="FillAndExpand"
              FontFamily="Kristen ITC"
 FontSize="15"
             BackgroundColor="Chocolate"/>
