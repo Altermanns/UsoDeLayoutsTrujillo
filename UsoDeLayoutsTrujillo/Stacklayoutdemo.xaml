@@ -5,8 +5,19 @@
              Title="Stacklayoutdemo">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="ESTE ES EL STACKLAYOUT"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            BackgroundColor="Green"/>
+        <Label 
+    Text="MI NOMBRE ES: ISAAC TRUJILLO"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" 
+            BackgroundColor="Aquamarine"/>
+        <Label 
+    Text="Página con un StackLayout vertical que contenga tres etiquetas de texto (su nombre) con diferentes tamaños de fuente y un botón que lleve a FlexLayout."
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" 
+            BackgroundColor="Chocolate"/>
     </VerticalStackLayout>
 </ContentPage>
