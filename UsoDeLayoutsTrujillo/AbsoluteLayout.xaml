@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UsoDeLayoutsTrujillo.AbsoluteLayout"
+             Title="AbsoluteLayout"
+             BackgroundColor="YellowGreen">
+    <AbsoluteLayout>
+        <Button Text="Click me!"
+                BackgroundColor="Black"/>
+        <Button Text=".NET MAUI"
+                BackgroundColor="Chocolate"/>
+        <Button Text="ESTE ES ABSOLUTE LAYOUT"
+                BackgroundColor="Violet"/>
+        <Button x:Name="GridLayoutButton" 
+                Text="GRID LAYOUT"
+                AbsoluteLayout.LayoutBounds="0,300,250,100"
+        BackgroundColor="Blue"/>
+    </AbsoluteLayout>
+</ContentPage>
