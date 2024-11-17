@@ -16,10 +16,18 @@
                ></Label>
 
 
-        <Button Text="Hacer"></Button>
-        <Button Text="Click"></Button>
-        <Button Text="Aqui"></Button>
-        <Button Text="Para ir a AbsoluteLayuot"></Button>
+        <Button  x:Name="AbsoluteButton1"
+                 Text="Hacer"
+                Clicked="AbsoluteButton1_Clicked"></Button>
+        <Button  x:Name="AbsoluteButton2"
+                 Text="Click"
+                Clicked="AbsoluteButton2_Clicked"></Button>
+        <Button  x:Name="AbsoluteButton3"
+                 Text="Aqui"
+                Clicked="AbsoluteButton3_Clicked"></Button>
+        <Button  x:Name="AbsoluteButton4"
+                 Text="Para ir a AbsoluteLayuot"
+                Clicked="AbsoluteButton4_Clicked"></Button>
 
 
         <Label Text="FOOTER"
