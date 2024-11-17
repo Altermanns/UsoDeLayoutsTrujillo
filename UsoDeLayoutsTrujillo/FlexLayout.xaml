@@ -16,17 +16,10 @@
                ></Label>
 
 
-        <Button Text="Click me!"
-                BackgroundColor="RosyBrown"
-                ImageSource="https://i.ytimg.com/vi/nf_njLxQqeI/maxresdefault.jpg"
-                ContentLayout="Top, 10"
-                Margin="5"/>
-
-        <ImageButton Source="https://i.ytimg.com/vi/nf_njLxQqeI/maxresdefault.jpg"
-                     HeightRequest="50"
-                     WidthRequest="50"
-                     BackgroundColor="Transparent"
-                     Clicked="OnImageButtonClicked"/>
+        <Button Text="Hacer"></Button>
+        <Button Text="Click"></Button>
+        <Button Text="Aqui"></Button>
+        <Button Text="Para ir a AbsoluteLayuot"></Button>
 
 
         <Label Text="FOOTER"
